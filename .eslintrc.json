@@ -28,6 +28,8 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/destructuring-assignment": "off",
+        "react/prefer-stateless-function": "off",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
         "react/button-has-type": "off",
