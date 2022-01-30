@@ -28,7 +28,7 @@ export const GridView = styled.div`
 
 export const GridItemContainer = styled.div`
   display: grid;
-  grid-template-rows: 7rem 1fr 8rem 4rem;
+  grid-template-rows: 10rem 1fr 8rem 4rem;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -49,12 +49,12 @@ export const GridItemContainer = styled.div`
 
 export const GridItemHeading = styled.h2`
   font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 600;
   line-height: 1.2em;
-  padding: 0.5em 1.5em 0.5em 0.75em;
+  padding: 0.5em 1em 0.5em 0.75em;
   
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     font-size: 1.25rem;
   }
 `;
@@ -79,7 +79,7 @@ export const GridItemDescription = styled.p`
   font-size: 0.65rem;
   padding: 0.325em 0.65em 0.325em 0.65em;
 
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     font-size: 0.75rem;
   }
 `;
@@ -92,7 +92,7 @@ export const GridItemPrice = styled.div`
   padding: 0.65em 0.65em 0.325em 0.65em;
   border-top: 0.25rem solid floralwhite;
 
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     font-size: 1.25rem;
   }
 `;
