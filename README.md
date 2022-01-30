@@ -6,7 +6,7 @@ A working project can be found here: https://lejanio.github.io/API-search-app/
 
 The app makes an API request on loading and displays a product list.
 A search can then be performed filtering the fetched results by title;
-the search is done after the users stops typing.
+the search is done after the user stops typing.
 
 The project is implemented using React (with TypeScript) alongside the Styled Components
 library for CSS styling. As per task instructions, the project consists of a mix of class and functional
