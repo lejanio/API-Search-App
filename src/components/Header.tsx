@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React, { FC } from 'react';
+import Logo from './Logo';
+import { StyledHeader } from './styles/Header.styles';
 
-class Header extends Component<any> {
-  render() {
-    return (
-      <div>Header Class Comp</div>
-    );
-  }
-}
+type HeaderProps = {}
+
+const Header:FC<HeaderProps> = ({ children }) => (
+  <StyledHeader>
+    <Logo />
+    {children}
+  </StyledHeader>
+);
+
+export default Header;
