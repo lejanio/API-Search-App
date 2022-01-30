@@ -49,10 +49,14 @@ export const GridItemContainer = styled.div`
 
 export const GridItemHeading = styled.h2`
   font-family: 'Oswald', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.2em;
   padding: 0.5em 1.5em 0.5em 0.75em;
+  
+  @media (min-width: 600px) {
+    font-size: 1.25rem;
+  }
 `;
 
 export const GridItemImageContainer = styled.div`
@@ -72,15 +76,23 @@ export const GridItemImage = styled.img`
 
 export const GridItemDescription = styled.p`
   display: flex;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   padding: 0.325em 0.65em 0.325em 0.65em;
+
+  @media (min-width: 600px) {
+    font-size: 0.75rem;
+  }
 `;
 
 export const GridItemPrice = styled.div`
   display: flex;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   padding: 0.65em 0.65em 0.325em 0.65em;
   border-top: 0.25rem solid floralwhite;
+
+  @media (min-width: 600px) {
+    font-size: 1.25rem;
+  }
 `;
