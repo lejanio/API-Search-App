@@ -31,8 +31,8 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "linebreak-style": "off",
         "import/prefer-default-export": "off",
-//        "import/no-unresolved": "off",
         "react/destructuring-assignment": "off",
         "react/prefer-stateless-function": "off",
         "no-use-before-define": "off",
