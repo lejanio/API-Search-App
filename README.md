@@ -1,6 +1,6 @@
 A working project can be found here: https://lejanio.github.io/API-search-app/
 
-![ Alt text](api_search_app_demo. gif) / ! [](api_search_app_demo. gif)
+![ Alt text](api_search_app_demo.gif)
 
 # API Search App
 
