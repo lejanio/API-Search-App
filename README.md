@@ -5,8 +5,8 @@ A working project can be found here: https://lejanio.github.io/API-search-app/
 ## General description
 
 The app makes an API request on loading and displays a product list.
-A search can then be performed filtering the fetched results; the search is done after
-the users stops typing.
+A search can then be performed filtering the fetched results by title;
+the search is done after the users stops typing.
 
 The project is implemented using React (with TypeScript) alongside the Styled Components
 library for CSS styling. As per task instructions, the project consists of a mix of class and functional
@@ -22,7 +22,7 @@ components while also employing React hooks.
     - Carries out an API call using Axios on mount
     - Filters the fetched results according to the search query
     - Contains state for fetched results, filtered results, search query and loading state
-    - Contains the search bar component
+    - Contains the search bar component (which is a class component)
 3. The components are located in the src/components folder with a separate subfolder /styles
     for component styles. 
 
