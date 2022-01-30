@@ -19,7 +19,7 @@ components while also employing React hooks.
     - Contains the header component which, in turn, contains the logo component
     - Contains the main section component which, in turn, contains the search bar component
 2. MainSection.tsx file:
-    - Carries out API call using Axios on mount
+    - Carries out an API call using Axios on mount
     - Filters the fetched results according to the search query
     - Contains state for fetched results, filtered results, search query and loading state
     - Contains the search bar component
@@ -35,6 +35,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the project dependencies.
 
 ### `npm start`
 
