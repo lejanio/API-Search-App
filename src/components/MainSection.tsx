@@ -72,7 +72,7 @@ const MainSection = () => {
         <Image src={spinner} alt="Loading..." height="150px" />
       </Flex>
       )}
-      <PaddedContainer>
+      <PaddedContainer padding="0 0.5em ">
         <Flex>
           {(filteredProducts.length === 0 && filterValue.length > 0)
             && (<div>The search returned no specific results. Please, try again</div>)}
