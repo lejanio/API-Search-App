@@ -28,7 +28,6 @@ components while also employing React hooks.
 3. The components are located in the src/components folder with a separate subfolder /styles
     for component styles. 
 
-
 ---
 
 # Getting Started with Create React App
